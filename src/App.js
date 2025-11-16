@@ -32,8 +32,8 @@ const AvatarFashionShop = () => {
   const LoginScreen = () => (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-3xl shadow-xl p-8 w-full max-w-md">
-        <h1 className="text-3xl font-bold text-center mb-2">플랫플명</h1>
-        <p className="text-center text-sm text-gray-600 mb-8">슬 로 건</p>
+        <h1 className="text-3xl font-bold text-center mb-2">팀F쇼핑몰</h1>
+        <p className="text-center text-sm text-gray-600 mb-8">사용자맞춤쇼핑몰</p>
         
         <input 
           type="text" 
@@ -165,7 +165,7 @@ const AvatarFashionShop = () => {
             <button className="md:hidden">
               <Menu size={24} />
             </button>
-            <h1 className="text-xl font-bold">MURINSA 🙂</h1>
+            <h1 className="text-xl font-bold">웹프로그래밍과제🙂</h1>
           </div>
           <div className="flex-1 max-w-2xl mx-4 hidden md:block">
             <div className="relative">
@@ -878,16 +878,8 @@ const AvatarFashionShop = () => {
                   <span className="font-semibold">{avatar.hipCircumference} cm</span>
                 </div>
                 <div className="flex justify-between py-2 border-b">
-                  <span className="text-gray-600">안다리 길이</span>
-                  <span className="font-semibold">{avatar.inseam} cm</span>
-                </div>
-                <div className="flex justify-between py-2 border-b">
                   <span className="text-gray-600">허벅지 둘레</span>
                   <span className="font-semibold">{avatar.thighCircumference} cm</span>
-                </div>
-                <div className="flex justify-between py-2">
-                  <span className="text-gray-600">종아리 둘레</span>
-                  <span className="font-semibold">{avatar.calfCircumference} cm</span>
                 </div>
               </div>
             </div>
